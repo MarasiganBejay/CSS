@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: url('https://th.bing.com/th/id/OIP.ybKRj9NJKi49Fx2wiDaLnwHaEo?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+    width: 40%;
+    max-width: 1000px;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color:aliceblue;
+}
+.welcome{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.welcome h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+.welcome p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.social-icons{
+    margin-bottom: 10px;
+    
+
+}
+
+
+.signup-box{
+    width: 360px;
+    height: 620px;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    
+}
+ 
+ 
+ h2{
+     text-align: center;
+     padding-top: 15px;
+     
+ }
+ h4{
+     text-align: center;
+     
+ }
+ form{
+     width: 300px;
+     margin-left: 20px;
+ }
+ 
+ form label{
+     display: flex;
+     margin-top: 20px;
+     font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(14, 142, 14);
+    color: white;
+    font-size: 18px;
+    
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+
+
+
+ 
+     
+
